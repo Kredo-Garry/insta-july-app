@@ -5,6 +5,7 @@
 @section('content')
     <div class="row gx-5">
         <div class="col-8">
+            <p class="lead">Diplay Posts</p>
             @forelse ($home_posts as $post)
                 <div class="card mb-4">
                     {{-- Insert Title --}}
