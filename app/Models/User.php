@@ -58,7 +58,7 @@ class User extends Authenticatable
         return $this->hasMany(Follow::class, 'following_id');
     }
 
-    # Use this method to get all the users that the user is following
+    # Use this method to get all the users that the AUTH user is following
     public function following(){
         return $this->hasMany(Follow::class, 'follower_id');
     }
