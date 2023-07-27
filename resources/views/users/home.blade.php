@@ -4,6 +4,7 @@
 
 @section('content')
     <div class="row gx-5">
+        <p>This will show all the posts</p>
         <div class="col-8">
             <p class="lead">Diplay Posts</p>
             @forelse ($home_posts as $post)
