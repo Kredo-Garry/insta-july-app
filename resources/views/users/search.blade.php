@@ -4,6 +4,7 @@
 
 @section('content')
     <div class="row justify-content-center">
+        <p>This will display all the users being search</p>
         <div class="col-5">
             <p class="h5 text-muted mb-4">Search results for "<span class="fw-bold">{{ $search }}</span>"</p>
 
